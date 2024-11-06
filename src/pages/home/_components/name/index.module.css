@@ -1,0 +1,45 @@
+.name {
+    display: flex;
+    flex-direction: column;
+}
+
+.txt_name {
+    font-size: 3.5rem;
+    font-weight: 600;
+    font-style: italic;
+    color: white;
+}
+
+.txt_desenvolvedor {
+    font-size: 2rem;
+    color: #45af6c;
+    text-shadow: 1px 1px 10px #00ab6f;
+    margin-top: -25px;
+}
+
+.div_btn_redes {
+    display: flex;
+    gap: 10px;
+}
+
+.div_btn_redes div i {
+    margin-top: 2px;
+    color: white;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.div_btn_redes div i:hover {
+    margin-top: 2px;
+    color: #00ab6f;
+    cursor: pointer;
+}
+
+.div_btn_redes div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    border-radius: 3px;
+    background-color: #1f1f1f;
+}

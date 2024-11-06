@@ -13,3 +13,12 @@ body {
 *:focus {
   outline: none;
 }
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #00ab6f;
+  border-radius: 10px;
+}
