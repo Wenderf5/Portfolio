@@ -5,7 +5,7 @@ import { projects } from '../../storage/projects';
 
 export function Skills() {
     return (
-        <section className={style.section}>
+        <section id='skills' className={style.section}>
             <Title title='Habilidades' />
             <div className={style.container_skill}>
                 {projects.map((item, index) => (

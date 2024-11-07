@@ -1,10 +1,12 @@
-import { Title } from '../../components/title';
 import style from './index.module.css';
+import { Carossel } from '../../components/carossel';
+import { Title } from '../../components/title';
 
 export function Projects() {
     return (
-        <section className={style.section}>
+        <section id='projects' className={style.section}>
             <Title title='Projetos' />
+            <Carossel />
         </section>
     )
 }

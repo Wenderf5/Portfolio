@@ -1,5 +1,5 @@
 .section {
-    height: 80vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,14 +31,14 @@
 
 @keyframes iMQett {
     0% {
-        margin-top: 20px;
+        transform: translateY(20px);
     }
 
     100% {
-        margin-top: -20px;
+        transform: translateY(-20px);
     }
 }
 
 .react_logo_svg {
-    animation: 2.1s linear 0s infinite alternate-reverse none running iMQett;
+    animation: 2.1s linear infinite alternate-reverse none running iMQett;
 }

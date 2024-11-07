@@ -35,11 +35,12 @@
     cursor: pointer;
 }
 
-.div_btn_redes div {
+.div_btn_redes div a {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 2px;
     border-radius: 3px;
     background-color: #1f1f1f;
+    text-decoration: none;
 }

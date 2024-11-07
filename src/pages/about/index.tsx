@@ -3,7 +3,7 @@ import style from './index.module.css';
 
 export function About() {
     return (
-        <section className={style.section}>
+        <section id='about' className={style.section}>
             <Title title='Sobre'/>
             <div className={style.container_txt}>
                 <article className={style.txt_about}>

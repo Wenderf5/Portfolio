@@ -4,13 +4,14 @@ import { Name } from './_components/name';
 import { About } from '../about';
 import { Projects } from '../projects';
 import { Skills } from '../skills';
+import { Footer } from '../../components/footer';
 
 export function Home() {
     return (
         <>
             <NavBar />
             <main>
-                <section className={style.section}>
+                <section id='home' className={style.section}>
                     <div className={style.div_centralizer}>
                         <Name />
                         <div className={style.div_react_logo}>
@@ -22,6 +23,7 @@ export function Home() {
                 <Projects />
                 <Skills />
             </main>
+            <Footer />
         </>
     )
 }
