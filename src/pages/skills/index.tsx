@@ -1,7 +1,7 @@
 import style from './index.module.css';
 import { Title } from '../../components/title';
 import { Skill } from './_components/skill';
-import { projects } from '../../storage/projects';
+import { projects } from '../../storage/skills';
 
 export function Skills() {
     return (
