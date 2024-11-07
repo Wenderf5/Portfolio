@@ -1,6 +1,8 @@
 import style from './index.module.css';
 import { NavBar } from '../../components/navBar';
 import { Name } from './_components/name';
+import { About } from '../about';
+import { Projects } from '../projects';
 
 export function Home() {
     return (
@@ -15,6 +17,8 @@ export function Home() {
                         </div>
                     </div>
                 </section>
+                <About />
+                <Projects />
             </main>
         </>
     )

@@ -1,0 +1,35 @@
+.section {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #0a0a0a;
+    color: white;
+}
+
+.container_txt {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.txt_about {
+    width: 50%;
+    text-align: center;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.icon_about{
+    animation: rotation 10s linear infinite;
+}

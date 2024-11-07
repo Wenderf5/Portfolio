@@ -1,0 +1,11 @@
+.ttl_about {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.ttl_about h2 {
+    font-size: 1.5rem;
+    color: white;
+    margin: 0%;
+}
