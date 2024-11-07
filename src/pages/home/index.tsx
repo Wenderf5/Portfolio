@@ -3,6 +3,7 @@ import { NavBar } from '../../components/navBar';
 import { Name } from './_components/name';
 import { About } from '../about';
 import { Projects } from '../projects';
+import { Skills } from '../skills';
 
 export function Home() {
     return (
@@ -19,6 +20,7 @@ export function Home() {
                 </section>
                 <About />
                 <Projects />
+                <Skills />
             </main>
         </>
     )
