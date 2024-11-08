@@ -1,20 +1,22 @@
 import style from './index.module.css';
+import { useState } from 'react';
+import { Menu } from './_components/menu';
+import { ButtonMenuMobile } from './_components/buttonMenuMobile';
 
 export function NavBar() {
+    const [windowSize, setWindowSize] = useState<number>(window.innerWidth);
+
+    window.addEventListener('resize', () => {
+        setWindowSize(window.innerWidth);
+    });
+
     return (
         <header className={style.header}>
             <div className={style.container}>
                 <h1>
                     <span>/*<span>WF.DEV</span>*/</span>
                 </h1>
-                <nav>
-                    <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">Sobre</a></li>
-                        <li><a href="#projects">Projetos</a></li>
-                        <li><a href="#skills">Habilidades</a></li>
-                    </ul>
-                </nav>
+                {windowSize < 769 ? <ButtonMenuMobile /> : <Menu />}
             </div>
         </header>
     )

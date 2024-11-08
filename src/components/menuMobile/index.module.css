@@ -1,0 +1,33 @@
+.menu_mobile_open {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 5px;
+    top: 70px;
+    right: -1px;
+    border: 1px #44ad6a solid;
+    width: 40px;
+    height: auto;
+    background-color: #000000;
+    transition: 300ms;
+}
+
+.menu_mobile_close {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 5px;
+    top: 70px;
+    right: -38px;
+    border: 1px #44ad6a solid;
+    width: 40px;
+    height: auto;
+    background-color: #000000;
+    transition: 300ms;
+}

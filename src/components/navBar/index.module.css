@@ -31,41 +31,6 @@
     color: white;
 }
 
-.header div nav ul {
-    list-style: none;
-    display: flex;
-    gap: 30px;
-}
-
-.header div nav ul li a {
-    text-decoration: none;
-    color: white;
-}
-
-.header div nav ul li {
-    position: relative;
-    cursor: pointer;
-    font-size: 1rem;
-    font-weight: 400;
-    color: white;
-}
-
-.header div nav ul li::before {
-    content: '';
-    position: absolute;
-    bottom: -3px;
-    width: 0%;
-    visibility: hidden;
-    height: 1px;
-    background: linear-gradient(to left, #00ab6e 70%, #00ab6e 0%, transparent 100%, transparent 100%);
-    transition: width 0.3s ease-in-out;
-}
-
-.header div nav ul li:hover::before {
-    width: 100%;
-    visibility: visible;
-}
-
 
 @media screen and (max-width: 1150px) and (min-width: 1024px) {
 

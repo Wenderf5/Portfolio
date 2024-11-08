@@ -5,6 +5,7 @@ import { About } from '../about';
 import { Projects } from '../projects';
 import { Skills } from '../skills';
 import { Footer } from '../../components/footer';
+import { MenuMobile } from '../../components/menuMobile';
 
 export function Home() {
     return (
@@ -12,6 +13,7 @@ export function Home() {
             <NavBar />
             <main>
                 <section id='home' className={style.section}>
+                    <MenuMobile />
                     <div className={style.div_centralizer}>
                         <Name />
                         <div className={style.div_react_logo}>

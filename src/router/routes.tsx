@@ -3,6 +3,7 @@ import { createBrowserRouter } from "react-router-dom";
 //Pages
 import { App } from "../App";
 import { Home } from "../pages/home";
+import { ContextProvider } from "../context/context";
 
 export const router = createBrowserRouter([
     {
@@ -11,7 +12,11 @@ export const router = createBrowserRouter([
         children: [
             {
                 path: '/',
-                element: <Home />
+                element: (
+                    <ContextProvider>
+                        <Home />
+                    </ContextProvider>
+                )
             }
         ]
     }
