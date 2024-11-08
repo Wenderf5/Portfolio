@@ -73,11 +73,11 @@
 
     .div_centralizer {
         width: 98%;
-        height: 80%;
+        height: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: end;
+        justify-content: center;
         gap: 80px;
     }
 
