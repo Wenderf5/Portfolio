@@ -16,7 +16,7 @@
     justify-content: space-between;
 }
 
-.header div h1  {
+.header div h1 {
     margin: 5px;
 }
 
@@ -64,4 +64,41 @@
 .header div nav ul li:hover::before {
     width: 100%;
     visibility: visible;
+}
+
+
+@media screen and (max-width: 1150px) and (min-width: 1024px) {
+
+    .container {
+        width: 85%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+
+    .container {
+        width: 98%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        width: 98%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header div h1 span {
+        font-size: 1.8rem;
+        font-weight: 400;
+        color: #43a868;
+    }
 }

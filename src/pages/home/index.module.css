@@ -40,5 +40,49 @@
 }
 
 .react_logo_svg {
+    height: 300px;
     animation: 2.1s linear infinite alternate-reverse none running iMQett;
+}
+
+@media screen and (max-width: 1150px) and (min-width: 1024px) {
+
+    .div_centralizer {
+        width: 85%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+
+    .div_centralizer {
+        width: 98%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .react_logo_svg {
+        height: 280px;
+        animation: 2.1s linear infinite alternate-reverse none running iMQett;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .div_centralizer {
+        width: 98%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+        gap: 80px;
+    }
+
+    .react_logo_svg {
+        height: 180px;
+        animation: 2.1s linear infinite alternate-reverse none running iMQett;
+    }
 }

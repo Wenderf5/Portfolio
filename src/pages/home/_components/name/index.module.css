@@ -44,3 +44,44 @@
     background-color: #1f1f1f;
     text-decoration: none;
 }
+
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+
+    .txt_name {
+        font-size: 3rem;
+        font-weight: 600;
+        font-style: italic;
+        color: white;
+    }
+    
+    .txt_desenvolvedor {
+        font-size: 2rem;
+        color: #45af6c;
+        text-shadow: 1px 1px 10px #00ab6f;
+        margin-top: -25px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .name {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .txt_name {
+        font-size: 2.4rem;
+        font-weight: 600;
+        font-style: italic;
+        color: white;
+    }
+    
+    .txt_desenvolvedor {
+        font-size: 1.4rem;
+        color: #45af6c;
+        text-shadow: 1px 1px 10px #00ab6f;
+        margin-top: -20px;
+    }
+}
