@@ -36,7 +36,7 @@ export function Carossel() {
           </div>
           <div className={style.opProjeto}>
             <button className={style.btnprojetos}><a className={style.link} href="https://github.com/Wenderf5/sistema-login-back-end" target="_blank">Repositorio</a></button>
-            <button className={style.btnprojetos}><a className={style.link} href="https://sistema-login-front-end.vercel.app" target="_blank">Aplicação no ar</a></button>
+            {/* <button className={style.btnprojetos}><a className={style.link} href="https://sistema-login-front-end.vercel.app" target="_blank">Aplicação no ar</a></button> */}
           </div>
         </div>
         <div className={
